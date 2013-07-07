@@ -1,0 +1,239 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplicativo Web jQuery Mobile</title>
+<link href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+ 
+     <div data-role="header" data-position="fixed" data-theme="a">
+    <center> Diagnóstico por Imagem</center>
+     </div>
+ 
+     <div data-role="content">
+	<h3>Parâmetros de Exames de Imagem</h3>
+        <p class="gen">Lorem ipsum dolor sit amet, his nullam detracto vituperata et, doming ancillae probatus no pri. 
+        Oblique menandri ex mea, vis modus debitis eligendi co. Id mazim debitis deterruisset duo. </p>
+
+
+	<!--<div data-role="collapsible-set" data-content-theme="c" > -->
+ 
+    <div data-role="collapsible" data-theme="b" >
+        <h3>CARÓTIDAS</h3>
+        <p>Tabela</p>
+    </div>
+ <!-------------------------->       
+    <div data-role="collapsible" data-theme="e">
+        <h3>ARTERIAL DOS MMII</h3>
+        <p>Estenose acima de 50%:<br>
+		- VPS maior que 200 cm/s <br>
+		- Aumento de VPS (comparado com o segmento proximal) maior ou igual 100%
+        </p>
+    </div>
+<!-------------------------->    
+    <div data-role="collapsible" data-theme="b">
+        <h3>DIÂMETRO MÉDIO DA AORTA</h3>
+        <p>Tabela</p>
+    </div>
+ <!-------------------------->       
+    <div data-role="collapsible" data-theme="e">
+        <h3>ARTÉRIAS MESENTERICAS</h3>
+        <p>
+		1- tronco celíaco: maior ou igual 200 cm/s<br>
+		2- Artéria Mesenterica superior: maior ou igual 275 cm/s<br>
+		3- Artéria Mesentérica Inferior: maior ou igual 200 cm/s
+        </p>
+    </div>
+    <!-------------------------->    
+    <div data-role="collapsible" data-theme="b">
+        <h3>DOPPLER HEPÁTICO - TIPS</h3>
+        <p>Critérios de Oclusão / Estenose
+		<br>- aumento de mais de 100 cm/s na velocidade de um ponto a outro no shunt
+		<br>- estreitamento visível ao modo B
+		<br>- Velocidade baxa no shunt (menor que 50 cm/s)
+		<br>- Fluxo continuo (não- pulsátil) no shunt
+		<br>- Fluxo baixo (menor que 30) ou invertido na veia porta
+		<br>- Ausência de fluxo no shunt</p>
+    </div>
+    <!-------------------------->    
+    
+    <div data-role="collapsible" data-theme="c">
+        <h3>DOPPLER RENAL</h3>
+        <p>Critérios de estenose da artéria renal
+		<br>- índice Renal / Aórtico maior que 3,0
+		<br>- VPS de 180 - 200 cm/s ou maiores
+		<br>- Artérias intrarrenais com índice de aeleração menor que 300 cm/s ou Tempo de Aceleração maior que 0,07
+    </div>
+ <!-------------------------->       
+
+    <div data-role="collapsible" data-theme="b">
+        <h3>DOPPLER RIM TX</h3>
+        <p>Estenose arterial
+		<br>- VPS maior que 190 cm/s (+ disturbio de fluxo pós-estenótico)
+		<br>- VPS maior que 250 cm/s, altamente especifica
+		<br>- Índice de velocidade sistolica (VPS na zona de estenose / VPS a. ilíaca) maior que 3,0 (+ disturbio de fluxo pós-estenótico).</p>
+    </div>
+
+  </div> <!-------------------------final content-->       
+
+   <div data-role="footer" data-id="foo1" data-position="fixed">
+   
+	<div data-role="navbar" data-position="fixed" >
+		<ul>
+			<li><a href="#page" data-theme="a" data-icon="home" data-transition="flip">Home</a></li>
+			<li><a href="#page2" data-theme="a" data-icon="edit" data-transition="flip">Edit</a></li>
+			<li><a href="#page3" data-theme="a" data-icon="gear" data-transition="flip">Opção</a></li>
+			<li><a href="#page2" data-theme="a" data-icon="star" data-transition="flip">Favoritos</a></li>
+			<li><a href="#page4" data-theme="a" data-icon="info" data-transition="flip">About</a></li>
+		</ul>
+     	</div>
+    </div>
+
+
+</div> 
+<!--------------------------final da page -->
+
+
+<div data-role="page" id="page2" data-add-back-btn="true" data-back-btn-text="Back" >
+   <div data-role="header">
+		<h1>Página dois</h1>
+   </div>
+
+   <div data-role="content">
+
+<!--<div data-role="collapsible-set" data-content-theme="c" > -->
+ 
+      <div data-role="collapsible" data-theme="b" >
+        <h3>CARÓTIDAS</h3>
+        <p>Tabela</p>
+      </div>
+ <!-------------------------->       
+      <div data-role="collapsible" data-theme="e">
+        <h3>ARTERIAL DOS MMII</h3>
+        <p>Estenose acima de 50%:<br>
+			- VPS maior que 200 cm/s <br>
+			- Aumento de VPS (comparado com o segmento proximal) maior ou igual 100%
+        </p>
+      </div>
+<!-------------------------->    
+      <div data-role="collapsible" data-theme="b">
+        <h3>DIÂMETRO MÉDIO DA AORTA</h3>
+        <p>Tabela</p>
+      </div>
+ <!-------------------------->       
+      <div data-role="collapsible" data-theme="e">
+        <h3>ARTÉRIAS MESENTERICAS</h3>
+        <p>
+			1- tronco celíaco: maior ou igual 200 cm/s<br>
+			2- Artéria Mesenterica superior: maior ou igual 275 cm/s<br>
+			3- Artéria Mesentérica Inferior: maior ou igual 200 cm/s
+         </p>
+      </div>
+    <!-------------------------->    
+      <div data-role="collapsible" data-theme="b">
+        <h3>DOPPLER HEPÁTICO - TIPS</h3>
+        <p>Critérios de Oclusão / Estenose
+			<br>- aumento de mais de 100 cm/s na velocidade de um ponto a outro no shunt
+			<br>- estreitamento visível ao modo B
+			<br>- Velocidade baxa no shunt (menor que 50 cm/s)
+			<br>- Fluxo continuo (não- pulsátil) no shunt
+			<br>- Fluxo baixo (menor que 30) ou invertido na veia porta
+			<br>- Ausência de fluxo no shunt</p>
+      </div>
+    <!-------------------------->    
+    
+      <div data-role="collapsible" data-theme="c">
+        <h3>DOPPLER RENAL</h3>
+        <p>Critérios de estenose da artéria renal
+	<br>- índice Renal / Aórtico maior que 3,0
+	<br>- VPS de 180 - 200 cm/s ou maiores
+	<br>- Artérias intrarrenais com índice de aeleração menor que 300 cm/s ou Tempo de Aceleração maior que 0,07
+      </div>
+ <!-------------------------->       
+
+      <div data-role="collapsible" data-theme="b">
+        <h3>DOPPLER RIM TX</h3>
+        <p>Estenose arterial
+			<br>- VPS maior que 190 cm/s (+ disturbio de fluxo pós-estenótico)
+			<br>- VPS maior que 250 cm/s, altamente especifica
+			<br>- Índice de velocidade sistolica (VPS na zona de estenose / VPS a. ilíaca) maior que 3,0 (+ disturbio de fluxo pós-estenótico).</p>
+      </div>
+   </div> <!-- final Contente -->
+   
+   <div data-role="footer" data-id="foo1" data-position="fixed">
+   
+     <div data-role="navbar" data-position="fixed" >
+		<ul>
+			<li><a href="#page" data-theme="a" data-icon="home" data-transition="flip">Home</a></li>
+			<li><a href="#page2" data-theme="a" data-icon="edit" data-transition="flip">Edit</a></li>
+			<li><a href="#page3" data-theme="a" data-icon="gear" data-transition="flip">Opção</a></li>
+			<li><a href="#page2" data-theme="a" data-icon="star" data-transition="flip">Favoritos</a></li>
+			<li><a href="#page4" data-theme="a" data-icon="info" data-transition="flip">About</a></li>
+		</ul>
+     </div>
+   </div>
+</div> <!--finl page 2 -->
+
+<div data-role="page" id="page3" data-add-back-btn="true" data-back-btn-text="Back" >
+	<div data-role="header">
+		<h1>Página três</h1>
+	</div>
+
+	<div data-role="content">	
+		<h3>Parâmetros de Exames de Imagem</h3>
+        	<p class="gen">Lorem ipsum dolor sit amet, his nullam detracto vituperata et, doming ancillae probatus no pri. 
+        	Oblique menandri ex mea, vis modus debitis eligendi co. Id mazim debitis deterruisset duo, vix in quaeque 
+        	delicata delicatissimi. </p>		
+	</div>
+
+   <div data-role="footer" data-id="foo1" data-position="fixed">
+   
+     <div data-role="navbar" data-position="fixed" >
+		<ul>
+			<li><a href="#page" data-theme="a" data-icon="home" data-transition="flip">Home</a></li>
+			<li><a href="#page2" data-theme="a" data-icon="edit" data-transition="flip">Edit</a></li>
+			<li><a href="#page3" data-theme="a" data-icon="gear" data-transition="flip">Opção</a></li>
+			<li><a href="#page2" data-theme="a" data-icon="star" data-transition="flip">Favoritos</a></li>
+			<li><a href="#page4" data-theme="a" data-icon="info" data-transition="flip">About</a></li>
+		</ul>
+	</div>
+   </div>
+</div>
+<!-- final page 3 -->
+
+<div data-role="page" id="page4" data-add-back-btn="true" data-back-btn-text="Back" >
+	<div data-role="header">
+		<h1>Página quatro</h1>
+	</div>
+
+	<div data-role="content">	
+		<h3>Parâmetros de Exames de Imagem</h3>
+        	<p class="gen">Lorem ipsum dolor sit amet, his nullam detracto vituperata et, doming ancillae probatus no pri. 
+        	Oblique menandri ex mea, vis modus debitis eligendi co. Id mazim debitis deterruisset duo, vix in quaeque 
+        	delicata delicatissimi. </p>		
+	</div>
+
+   <div data-role="footer" data-id="foo1" data-position="fixed">
+   
+     <div data-role="navbar" data-position="fixed" >
+		<ul>
+			<li><a href="#page" data-theme="a" data-icon="home" data-transition="flip">Home</a></li>
+			<li><a href="#page2" data-theme="a" data-icon="edit" data-transition="flip">Edit</a></li>
+			<li><a href="#page3" data-theme="a" data-icon="gear" data-transition="flip">Opção</a></li>
+			<li><a href="#page2" data-theme="a" data-icon="star" data-transition="flip">Favoritos</a></li>
+			<li><a href="#page4" data-theme="a" data-icon="info" data-transition="flip">About</a></li>
+		</ul>
+     </div>
+   </div>
+
+
+</div>
+<!--final page 4 -->
+
+</body>
+</html>
