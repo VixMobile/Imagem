@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets"
   xmlns:gap="http://phonegap.com/ns/1.0"
-  id="Ales"	version="1.0.0">
+  id="Imagem"	version="1.0.0">
 
-	<name>Ales</name>
+	<name>Imagem</name>
 
 	<description>
-		Plenário Virtual.
+		Parâmetros para Exames de Imagem.
 	</description>
 
 	<author href="" email="tavola@hotmail.com">
